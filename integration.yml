@@ -7,3 +7,5 @@
   roles:
       - role: ansible.yum
         sudo: yes
+
+      - role: ansible.java
