@@ -1,0 +1,9 @@
+---
+- name: Local ansible integration
+  hosts: 127.0.0.1
+  user: root
+  connection: local
+
+  roles:
+      - role: ansible.yum
+        sudo: yes
